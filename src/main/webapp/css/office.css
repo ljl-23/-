@@ -1,0 +1,51 @@
+*{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family:"楷体";
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.top{
+    position: relative;
+    top:20px;
+    left: 10px;
+    width:99%;
+    align-content: center;
+    margin: 0 auto;
+}
+.top .top-clo{
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.top .top-clo>div{
+    display: inline-block;
+}
+.top .top-clo .stu-top .stu-item1 a,.stu-item2,.stu-item4 a{
+    color: #fff;
+}.top .stu-inform{
+     display: inline-block;
+     float: right;
+     position: absolute;
+     right: 100px;
+ }
+.top .stu-inform .stu-item2,button,.dropdown{
+    display: inline-block;
+}
+.container{
+    position: relative;
+    top:27px;
+    margin: 0 auto;
+}
+.tab-center{
+    position: relative;
+    top:20px;
+    margin: 0 auto;
+}

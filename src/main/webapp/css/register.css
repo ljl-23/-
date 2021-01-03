@@ -1,0 +1,71 @@
+*{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family:"楷体";
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	position: relative;
+	top:1px;
+	background-image: url(../img/bgtp.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#ffffff;
+}
+.lg-center{
+	position: absolute;
+	top: 200px;
+	left: 430px;
+	width: 370px;
+	height: 310px;
+	background: #fff;
+	opacity: .7;
+	padding: 10px;
+	border-radius: 7px;
+}
+.lg-center span{
+	position: absolute;
+	left: 110px;
+	top: 20px;
+	font-size: 36px;
+}
+.lg-center .post{
+	position: relative;
+}
+.lg-center input,select{
+	width: 200px;
+	/*border-radius: 10px;*/
+	border: none;
+	outline: none;
+	padding: 0px 10px;
+	height: 40px;
+	border-bottom: 1px solid #000;
+}
+select{
+	width: 220px;
+}
+form{
+	position: absolute;
+	left: 35px;
+	top: 90px;
+}
+form > div{
+	margin-bottom: 15px;
+}
+.lg-center .user-sbt {
+	margin: 10px 60px;
+	width: 200px;
+	height: 40px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background: #066ff4;
+}
+.lg-center div>label{
+	font-size: 24px;
+}
