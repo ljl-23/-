@@ -47,28 +47,12 @@ public class CssRoomServlet extends HttpServlet {
             room.setRoomid(Integer.valueOf(roomid));
             RoomDAO roomDAO  = new RoomDAO();
             boolean flag = roomDAO.updateRoom(room);
-            if(flag){
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改成功！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/RoomPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/RoomPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            request.getRequestDispatcher("/RoomPageServlet").forward(request,response);
         }
         else if(method.equals("delete")){
-            int roomid = Integer.parseInt(request.getParameter("roomid"));
+            String  id = request.getParameter("roomid");
             RoomDAO roomDAO = new RoomDAO();
+            int roomid = Integer.valueOf(id);
             roomDAO.delRoomById(roomid);
             request.getRequestDispatcher("/RoomPageServlet").forward(request,response);
 
@@ -78,7 +62,7 @@ public class CssRoomServlet extends HttpServlet {
             List<Room> roomList =  null;
 
             if(roomids.equals("")){
-                response.sendRedirect("/CourseSchedulingSystem/RoomPageServlet");
+                request.getRequestDispatcher("/RoomPageServlet").forward(request,response);
             }else {
                 roomList = roomDAO.checkRoom(roomids);
                 request.setAttribute("roomList",roomList);

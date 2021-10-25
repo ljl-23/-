@@ -21,19 +21,8 @@ public class TeacherSelfServlet extends HttpServlet {
             teacher.setTeacherid(Integer.valueOf(id));
             TeacherDAO teacherDAO  = new TeacherDAO();
             boolean flag = teacherDAO.updateTeacher(teacher);
-            if(flag){
-                request.getSession().setAttribute("teacher", teacher);
-                request.getRequestDispatcher("teacher.jsp").forward(request, response);
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/teacher.jsp';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            request.getSession().setAttribute("teacher", teacher);
+            request.getRequestDispatcher("teacher.jsp").forward(request, response);
         }  else if(method.equals("self")){
             int teacherid = Integer.parseInt(request.getParameter("teacherids"));
             TeacherDAO teacherDAO  = new TeacherDAO();

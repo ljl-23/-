@@ -45,29 +45,13 @@ public class CssStudentServlet extends HttpServlet {
             Student student = requestDataObj(request);
             student.setStudentid(Integer.valueOf(id));
             StudentDAO studentDAO  = new StudentDAO();
-            boolean flag = studentDAO.updateStudent(student);
-            if(flag){
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改成功！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/StudentPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/StudentPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            studentDAO.updateStudent(student);
+            request.getRequestDispatcher("/StudentPageServlet").forward(request,response);
         }else if(method.equals("delete")){
-            int stuId = Integer.parseInt(request.getParameter("studentid"));
+            String  id =request.getParameter("studentid3");
             StudentDAO studentDAO = new StudentDAO();
-            studentDAO.delStudentById(stuId);
+            int stuid =Integer.valueOf(id);
+            studentDAO.delStudentById(stuid);
             request.getRequestDispatcher("/StudentPageServlet").forward(request,response);
 
         }else if("check".equals(method)){
@@ -76,7 +60,7 @@ public class CssStudentServlet extends HttpServlet {
             List<Student> studentList =  null;
 
             if(classnames.equals("")){
-                response.sendRedirect("/CourseSchedulingSystem/StudentPageServlet");
+                request.getRequestDispatcher("/StudentPageServlet").forward(request,response);
             }else {
                 studentList = studentDAO.checkStudent(classnames);
                 request.setAttribute("studentList",studentList);

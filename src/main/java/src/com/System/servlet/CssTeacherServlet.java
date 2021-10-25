@@ -46,24 +46,9 @@ public class CssTeacherServlet extends HttpServlet {
             teacher.setTeacherid(Integer.valueOf(teacherid));
             TeacherDAO teacherDAO  = new TeacherDAO();
             boolean flag = teacherDAO.updateTeacher(teacher);
-            if(flag){
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改成功！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/TeacherPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/TeacherPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            request.setAttribute("teacher",teacher);
+            //请求转发到学生信息展示页面
+            request.getRequestDispatcher("/TeacherPageServlet").forward(request,response);
         }else if(method.equals("delete")){
             int Id = Integer.parseInt(request.getParameter("teacherid"));
             TeacherDAO teacherDAO = new TeacherDAO();
@@ -76,7 +61,7 @@ public class CssTeacherServlet extends HttpServlet {
             List<Teacher> teacherList =  null;
 
             if(profs.equals("")){
-                response.sendRedirect("/CourseSchedulingSystem/TeacherPageServlet");
+                request.getRequestDispatcher("/TeacherPageServlet").forward(request,response);
             }else {
                 teacherList = teacherDAO.checkTeacher(profs);
                 request.setAttribute("teacherList",teacherList);

@@ -127,63 +127,63 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">教师编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="teacherid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="teacherid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">邮箱：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="teachemail" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="teachemail" value="teacher@qq.com"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">姓名：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="唐云"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">性别：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="tsex" value="男"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="tsex" value="女"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">职称：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="prof" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="prof" value="教授"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">学院：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="departname" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="departname" value="电商"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">手机号码：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="phone" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="phone" value="12345678912"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                     <tr>
                                         <th width="110" align="right" bgcolor="#F8F8F8">密码：</th>
-                                        <td bgcolor="#F8F8F8"><input type="text" name="teachpwd" value=""></td>
+                                        <td bgcolor="#F8F8F8"><input type="text" name="teachpwd" value="111111"></td>
                                     </tr>
                                 </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">备注：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="remark" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="remark" value="自律"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -209,63 +209,63 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">教师编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="teacherid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="teacherid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">邮箱：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="teachemail" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="teachemail" value="teacher@qq.com"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">姓名：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="唐云"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">性别：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="tsex" value="男"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="tsex" value="女"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">职称：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="prof" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="prof" value="教授"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">学院：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="departname" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="departname" value="电商"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">手机号码：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="phone" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="phone" value="12345678912"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">密码：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="teachpwd" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="teachpwd" value="111111"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">备注：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="remark" value=""></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="remark" value="自律"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -291,7 +291,7 @@
                                     <tr>
                                         <th width="110" align="right" bgcolor="#F8F8F8">职称：</th>
                                         <td bgcolor="#F8F8F8">
-                                            <input type="text" name="profs" value="" placeholder="职称"></td>
+                                            <input type="text" name="profs" value="教授" placeholder="职称"></td>
                                     </tr>
                                 </table>
                             </div><div><input class="btn btn-primary" type="submit" name="add1" value="查询" ></div>

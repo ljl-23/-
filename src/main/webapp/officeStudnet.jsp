@@ -83,7 +83,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a  href="${appPath}/CssStudentServlet?method=delete&studnetid=${student.studentid}">
+                                                    <a  href="${appPath}/CssStudentServlet?method=delete&studentid3=${student.studentid}">
                                                         删除
                                                     </a>
                                                 </li>
@@ -254,7 +254,7 @@
                             <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                 <tr>
                                     <th width="110" align="right" bgcolor="#F8F8F8">备注：</th>
-                                    <td bgcolor="#F8F8F8"><input type="text" name="remark" value=""></td>
+                                    <td bgcolor="#F8F8F8"><input type="text" name="remark" value="1212"></td>
                                 </tr>
                             </table>
                             <div class="he"></div>

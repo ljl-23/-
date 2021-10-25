@@ -31,7 +31,7 @@
 </div>
 <div class="container">
     <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#CourseArranging" id="CourseArranging1" aria-controls="Scouse" role="tab" data-toggle="tab">学生管理</a></li>
+        <li role="presentation" class="active"><a href="#CourseArranging" id="CourseArranging1" aria-controls="Scouse" role="tab" data-toggle="tab">教师管理</a></li>
         <li role="presentation"><a href="${appPath}/CourseSchedulingPageServlet">排课管理</a></li>
         <li role="presentation"><a href="${appPath}/TeacherPageServlet">教师管理</a></li>
         <li role="presentation"><a href="${appPath}/StudentPageServlet">学生管理</a></li>
@@ -111,7 +111,7 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">教室编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="roomid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="roomid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -151,7 +151,7 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">教室名：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="roomname" value="第一教学楼1号教室"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="roomname" value="第一教学楼7号教室"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>

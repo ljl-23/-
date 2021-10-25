@@ -47,24 +47,7 @@ public class CssCourseSchedulingServlet extends HttpServlet {
             cs.setLessid(Integer.valueOf(id));
             CourseSchedulingDAO courseSchedulingDAO  = new CourseSchedulingDAO();
             boolean flag = courseSchedulingDAO.updateCourseScheduling(cs);
-            if(flag){
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改成功！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/CourseSchedulingPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败3！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/CourseSchedulingPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            request.getRequestDispatcher("/CourseSchedulingPageServlet").forward(request, response);
         }
         else if(method.equals("delete")){
             int csId = Integer.parseInt(request.getParameter("lessid"));
@@ -78,7 +61,7 @@ public class CssCourseSchedulingServlet extends HttpServlet {
             List<CourseScheduling> courseSchedulingList =  null;
 
             if(weeks_id.equals("")){
-                response.sendRedirect("/CourseSchedulingSystem/CourseSchedulingPageServlet");
+                request.getRequestDispatcher("/CourseSchedulingPageServlet").forward(request,response);
             }else {
                 courseSchedulingList = courseSchedulingDAO.checkCourseScheduling(weeks_id);
                 request.setAttribute("courseSchedulingList",courseSchedulingList);

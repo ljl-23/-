@@ -108,7 +108,7 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">通知编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="noticeid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="noticeid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -122,7 +122,7 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">信息：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="matter" value="一班的课程星期一上午的1、2节计算机课调到星期五下午5、6节"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="matter" value="三班的课程星期一上午的1、2节计算机课调到星期五下午5、6节"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -162,7 +162,7 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">信息：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="matter" value="一班的课程星期一上午的1、2节计算机课调到星期五下午5、6节"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="matter" value="三班的课程星期一上午的1、2节计算机课调到星期五下午5、6节"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>

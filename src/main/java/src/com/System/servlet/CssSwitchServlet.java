@@ -35,24 +35,7 @@ public class CssSwitchServlet extends HttpServlet {
             switchInfo.setSwitchid(Integer.valueOf(id));
             SwitchInfoDAO switchInfoDAO  = new SwitchInfoDAO();
             boolean flag = switchInfoDAO.updateSwitchInfo(switchInfo);
-            if(flag){
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改成功！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/SwitchPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败3！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/SwitchPageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            request.getRequestDispatcher("/SwitchPageServlet").forward(request,response);
         }
         else if(method.equals("delete")){
             int csId = Integer.parseInt(request.getParameter("switchid"));
@@ -66,7 +49,7 @@ public class CssSwitchServlet extends HttpServlet {
             List<SwitchInfo> switchInfoList =  null;
 
             if(weeks_id.equals("")){
-                response.sendRedirect("/CourseSchedulingSystem/SwitchPageServlet");
+                request.getRequestDispatcher("/SwitchPageServlet").forward(request,response);
             }else {
                 switchInfoList = switchInfoDAO.checkSwitchInfo(weeks_id);
                 request.setAttribute("switchInfoList",switchInfoList);

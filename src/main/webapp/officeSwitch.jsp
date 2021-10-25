@@ -106,28 +106,28 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="switchid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="switchid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">申请人：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="星期一"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="荣咏玉"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">调课内容：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="message" value="第一节课"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="message" value="星期二的第一节课"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">调课原因：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="reason" value="C1001"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="reason" value="有事"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -153,28 +153,28 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="switchid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="switchid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">申请人：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="星期一"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="荣咏玉"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">调课内容：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="message" value="第一节课"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="message" value="星期二的第一节课"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">调课原因：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="reason" value="C1001"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="reason" value="有事"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>

@@ -21,7 +21,7 @@ public class TeacherDAO {
                 " tb_teacher where email=? and teachpwd=?";
         return DBUtils.getSingleObj(Teacher.class,sql,username,password);
     }
-    //查询数据库中该教师邮箱账号是否存在
+    //
     public Integer selectTeacherEmailCount(String email) {
         String  sql="select count(*) from tb_teacher a where a.email = ?";
         Integer count = DBUtils.getCount(sql,email);

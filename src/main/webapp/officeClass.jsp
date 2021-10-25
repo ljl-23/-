@@ -120,14 +120,14 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">班级编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="classid" value="C1001"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="classid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">班级名：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="classname" value="一班"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="classname" value="1班"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -180,14 +180,14 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">班级编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="classid" value="C1001"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="classid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">班级名：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="classname" value="一班"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="classname" value="1班"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>

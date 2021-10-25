@@ -110,7 +110,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title">增加排课信息</h4>
+                                <h4 class="modal-title">增加课程信息</h4>
                             </div>
                             <!--增加课程信息-->
                             <div class="modal-body">
@@ -118,7 +118,7 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">课程编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="courseid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="courseid" value=""></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -132,7 +132,7 @@
                                     <table width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">教师名：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="程云"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="tname" value="晓飞"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>
@@ -165,7 +165,7 @@
                                     <table  width="300" border="0" cellpadding="3" cellspacing="1" bgcolor="#EEEEEE">
                                         <tr>
                                             <th width="110" align="right" bgcolor="#F8F8F8">课程编号：</th>
-                                            <td bgcolor="#F8F8F8"><input type="text" name="courseid" value="1"></td>
+                                            <td bgcolor="#F8F8F8"><input type="text" name="courseid" value="4"></td>
                                         </tr>
                                     </table>
                                     <div class="he"></div>

@@ -47,24 +47,7 @@ public class CssCourseServlet extends HttpServlet {
             course.setCourseid(Integer.valueOf(id));
             CourseDAO courseDAO  = new CourseDAO();
             boolean flag = courseDAO.updateCourse(course);
-            if(flag){
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改成功！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/CoursePageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/CoursePageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            request.getRequestDispatcher("/CoursePageServlet").forward(request,response);
         }else if(method.equals("delete")){
             int courseid = Integer.parseInt(request.getParameter("courseid"));
             CourseDAO courseDAO = new CourseDAO();
@@ -77,7 +60,7 @@ public class CssCourseServlet extends HttpServlet {
             List<Course> courseList =  null;
 
             if(tnames.equals("")){
-                response.sendRedirect("/CourseSchedulingSystem/CoursePageServlet");
+                request.getRequestDispatcher("/CoursePageServlet").forward(request,response);
             }else {
                 courseList = courseDAO.checkCourse(tnames);
                 request.setAttribute("courseList",courseList);

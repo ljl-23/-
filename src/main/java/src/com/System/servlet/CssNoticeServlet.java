@@ -35,29 +35,13 @@ public class CssNoticeServlet extends HttpServlet {
             notice.setNoticeid(Integer.valueOf(id));
             NoticeDAO noticeDAO  = new NoticeDAO();
             boolean flag = noticeDAO.updateNotice(notice);
-            if(flag){
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改成功！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/NoticePageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
-            else {
-                PrintWriter writer = response.getWriter();
-                writer.write("<script>");
-                writer.write("alert('修改失败3！');");
-                writer.write(" window.location.href = '/CourseSchedulingSystem/NoticePageServlet';");
-                writer.write("</script>");
-                writer.flush();
-                writer.close();
-            }
+            request.getRequestDispatcher("/NoticePageServlet").forward(request,response);
         }
         else if(method.equals("delete")) {
-            int id = Integer.parseInt(request.getParameter("noticeid"));
+            String id = request.getParameter("noticeid");
             NoticeDAO noticeDAO = new NoticeDAO();
-            noticeDAO.delNoticeById(id);
+            int ids = Integer.valueOf(id);
+            noticeDAO.delNoticeById(ids);
             request.getRequestDispatcher("/NoticePageServlet").forward(request, response);
 
         }

@@ -10,7 +10,6 @@
 		<link rel="icon" href="">
 	</head>
 	<body>
-
 		<div class="lg-center">
 			<p class="lg-listenner">在线人数：${applicationScope.count}</p>
 			<div class="post">
